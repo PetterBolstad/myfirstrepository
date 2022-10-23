@@ -10,6 +10,13 @@ body {
   gap: 1rem;
 }
 
+h1 {
+  background: #7806cf;
+  background: linear-gradient(to top right, #7806cf 0%, #c800cf 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 a {
   color: #f1f1f1;
   text-decoration: none;
